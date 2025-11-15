@@ -1,0 +1,3794 @@
+fileFormatVersion: 2
+guid: a69b3dea3711f534fba2f881ddf93662
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UI Template icons_0
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 940
+        width: 81
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c8bce77229d84942a4fea292787a12f
+      internalID: -717954876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_1
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 940
+        width: 79
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b6c7d2cae385cb4cbfd7836f4cbb870
+      internalID: 1795001461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_2
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 933
+        width: 74
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d354089ffc50dd46a4bf5ccdaf416ef
+      internalID: 1087681946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_3
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 930
+        width: 120
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af6aa2199b8fb747963cad6cd1fb2d1
+      internalID: -795555619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_4
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 912
+        width: 72
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd8f4f28fe49f94091cb98629f1657c
+      internalID: -6385034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_5
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 912
+        width: 48
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bce26528d30adc4a883f23c6df6c56e
+      internalID: -350955293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_6
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 948
+        width: 77
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd54d7260a6a304ca47c3d84a5486b8
+      internalID: 2139262136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_7
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 978
+        width: 66
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef27c4459ef440d4b8dcb19a3c21604f
+      internalID: 1324493211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_8
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 942
+        width: 70
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b5e97f48003f949afca2fa19a92c1c
+      internalID: 2070770457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_9
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 990
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce3b885774377244ab7b2870564a040
+      internalID: -1765002356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_10
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 996
+        width: 17
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9ac22274981384cb1c1728badaa165
+      internalID: 123411149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_11
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 996
+        width: 20
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e8f8be1236a8314d8dc43ac01a8b7d6
+      internalID: 1027988175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_12
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 996
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04637361662f27b498fbf6640de03686
+      internalID: 279487959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_13
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 996
+        width: 46
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea05f458aee532346b3a20d06e0b22c0
+      internalID: -397000432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_14
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 996
+        width: 86
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b287853b63f5d24bbb71ff34edf11f0
+      internalID: 1555608806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_15
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 912
+        width: 17
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be717d7d9bd297a4da44aa989a109fb8
+      internalID: 2126343780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_16
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 912
+        width: 17
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e07452ec61ca9d49a7e57726f7780a8
+      internalID: -137168818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_17
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 912
+        width: 19
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5659ecf70775e324f8b1d5e1c2666bce
+      internalID: 7129529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_18
+      rect:
+        serializedVersion: 2
+        x: 1774
+        y: 912
+        width: 27
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41c7338f960dc241894118069d0974f
+      internalID: -694224568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_19
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 936
+        width: 28
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0e806138950d74b83b1d44ff97e7fa
+      internalID: 1178740569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_20
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 924
+        width: 75
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d03b89b03f117b4897a98d5fd6120bd
+      internalID: 96479964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_21
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 940
+        width: 62
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5330198e219a72049a70c3e577110ad5
+      internalID: 307934187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_22
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 967
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b7f5272dbc1f645ab539bc31804aaf
+      internalID: -982420517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_23
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 967
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd97c4b022c43a47b4e7c3036a20474
+      internalID: -1659907295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_24
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 967
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc41564e4a3c294d839d55c92ac0b87
+      internalID: -1562763210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_25
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 967
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5c825b98040774ca4cc31ccaf74396
+      internalID: -2076497229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_26
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 967
+        width: 46
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf7c96c34d99d3479b4cfeb0089b791
+      internalID: -1407055176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_27
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 967
+        width: 85
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f926eb9420308d7449de7f0b856ac02f
+      internalID: 1138763098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_28
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 912
+        width: 17
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1384c13c98f33ec46a1f9ec6aad24e69
+      internalID: -2122270958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_29
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 912
+        width: 17
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d560cebe7ce1436489a845cfd4f0c24c
+      internalID: 1546695286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_30
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 912
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b1463f499e29fb42acead06ce5b30b8
+      internalID: -52803349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_31
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 936
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01d60036db8f2df429283dc5179ec64c
+      internalID: 65222151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_32
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 936
+        width: 46
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b646b4ab56ce3dd44b9aa2885583bc9c
+      internalID: 1570786842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_33
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 936
+        width: 85
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a41855adb368848a88ecf8ed03d31b
+      internalID: 1123953548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_34
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 816
+        width: 72
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 623584c359b6fde41acb09949a277bd9
+      internalID: -1790175147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_35
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 816
+        width: 93
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a6288cd244c13429c0da92340f58ec
+      internalID: 1775308776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_36
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 816
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c2ce4544dde42448b1954329aa77691
+      internalID: 1270972405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_37
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 816
+        width: 66
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36654b1803c005f4eaea219af74969d3
+      internalID: -2087396624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_38
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 860
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d646f9e9843d842b5ac30f65b84686
+      internalID: -1805291635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_39
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 860
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22542fb6871d7af4d91dbfd13377a7e8
+      internalID: -719086874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_40
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 859
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da767c9481f8b0448aab60c4b427f1c1
+      internalID: 741712445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_41
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 858
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822f39dde4c801549aa7b6aba9d8098b
+      internalID: -43861995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_42
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 811
+        width: 76
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3f788a88e39cd42b7b2d6023c8d5ac
+      internalID: -1162605314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_43
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 809
+        width: 97
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e2fa237a766b144a2916fb29a746e0
+      internalID: 14609554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_44
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 804
+        width: 90
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc361d519fb788247abd8a41f3c63e9d
+      internalID: -362938283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_45
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 809
+        width: 84
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10acc810d22a804a800e9b33eeb6a03
+      internalID: -1464110785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_46
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 804
+        width: 102
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94815340ddeb827409a0e448db913b39
+      internalID: 1820738491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_47
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 810
+        width: 90
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55997e179a3b39140a44a4fb99453436
+      internalID: 782655526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_48
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 821
+        width: 53
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec9f02462e582b4aa19ddccd90c6e4b
+      internalID: -2051081892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_49
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 821
+        width: 36
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc8f77815bbae243ba329ba1d4576d4
+      internalID: -402552609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_50
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 810
+        width: 84
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb1407e1911e6847ba5e09a62e826c4
+      internalID: 1143848769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_51
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 828
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c186bb22fffe7b44a829850409589554
+      internalID: 1306032219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_52
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 810
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dceff8a0d569f5744a475fa4b9051304
+      internalID: -222377859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_53
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 840
+        width: 76
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b32524266493d8d46852ee1e7ed9f89a
+      internalID: -391730730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_54
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 788
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e937615a68719b4d872b8481a9718a4
+      internalID: -584204410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_55
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 811
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a1f69f266d3654fb001c668bb71159
+      internalID: 677695331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_56
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 810
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df921d1dec4aa74ea94cc5bce29ea78
+      internalID: -84547296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_57
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 689
+        width: 73
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400130c440bf5c244a1a8cf1b89a39f6
+      internalID: -413803256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_58
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 648
+        width: 132
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed0b782e8c516c24d976a3157b9a0581
+      internalID: -1045796810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_59
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 684
+        width: 84
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600ba698d7a96f347835f2fa270d3ae9
+      internalID: -913787750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_60
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 684
+        width: 77
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280c133ccbb266148a7cbe54a1b71c2d
+      internalID: -1079015168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_61
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 682
+        width: 90
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cc028b3bcc30d94387949c7c92a3539
+      internalID: 916936894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_62
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 762
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c2561c255462945bb6304f45cfb8a1
+      internalID: 124983626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_63
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 689
+        width: 126
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 682ecb926bef9414a9e519dfb0b2e95b
+      internalID: -865503369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_64
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 690
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6dd6ac976fd0fa42908dba980701891
+      internalID: -1066795334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_65
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 666
+        width: 97
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cef9196ccdc21ba4893ca96e71d15cc8
+      internalID: -687612785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_66
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 684
+        width: 99
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337b689843422874cb9acaa8038d7665
+      internalID: -413452105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_67
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 688
+        width: 78
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1cfb598d9a29e24eb47f99cfd6f31e6
+      internalID: 1509130453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_68
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 694
+        width: 75
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f48795195c2bc4594062d2ab2ff87a
+      internalID: -433368501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_69
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 692
+        width: 74
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8795fa5f626339243bf9c6e785b9b44c
+      internalID: 2001801334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_70
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 720
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a0fc02fa1fd864988dbf22e1035678
+      internalID: -71570802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_71
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 684
+        width: 96
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2470fadca720143ab6ed4d3cdab08a
+      internalID: 551182914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_72
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 692
+        width: 81
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8acf6452dc5b6d94e89e20f83ddf497e
+      internalID: 281478752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_73
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 684
+        width: 96
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a102f5faac8304a8fa79de0e1e89cd
+      internalID: 119453626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_74
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 684
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79c72d8541ddfd4ba6a5e4d2a724d05
+      internalID: 915410826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_75
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 568
+        width: 94
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad411b26e7a16544bb816a35e468b71
+      internalID: 1563282145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_76
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 568
+        width: 60
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebff9419ccf764245b1a5ffe574b04ba
+      internalID: 325142544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_77
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 545
+        width: 129
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3093e0778380e784293f74a618c0a9b9
+      internalID: 1798395414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_78
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 570
+        width: 76
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d5086df1eb1ce4f8584095d646ec5a
+      internalID: 1459500923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_79
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 540
+        width: 96
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c84faacfdeb7a44b8f7c8c6bdebeffc
+      internalID: 1878023292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_80
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 621
+        width: 60
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3225809b93c70a7459a6353a1236f949
+      internalID: 1131876617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_81
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 621
+        width: 58
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628eb6780c2190d40b1d7ce3fe65429f
+      internalID: 1670929788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_82
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 643
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ceac85814092d42a45db9eabd3a30b
+      internalID: 1989766386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_83
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 564
+        width: 111
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3627ec7cbe981e84dade1397614fe934
+      internalID: 6647533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_84
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 594
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e645a0cecf7af446b1f85d3206ce410
+      internalID: -1274410351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_85
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 624
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a307048f29de74d9f93d6c801794f3
+      internalID: -1671480695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_86
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 568
+        width: 58
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffbc9ea1f45aed148b1984dbb85e55e4
+      internalID: 619983239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_87
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 573
+        width: 65
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ec3cd1f5beef746b157be200ff3e93
+      internalID: 743883458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_88
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 563
+        width: 82
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a92a37a6ac88ace4989b883d6ca8c7c3
+      internalID: 818381654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_89
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 563
+        width: 90
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac0b599ea56976469f5f3724ce2b2de
+      internalID: -1688579643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_90
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 594
+        width: 18
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65cde2f529bd5d744bce6872d2db1181
+      internalID: -1741757886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_91
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 592
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dd177e91fffdcf4f8c71e5e611925d5
+      internalID: -1693602649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_92
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 568
+        width: 77
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f261f3b78924eea4bb06efae58848f9d
+      internalID: -124672159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_93
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 568
+        width: 99
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f5aac5d0f5047409c667e900b6ca6d
+      internalID: -760206449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_94
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 540
+        width: 75
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d77c91ce7e6514fa182a7ce213f3b5
+      internalID: 684171468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_95
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 597
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046ec3ca20f9e114a9cd4024fd1b4998
+      internalID: -1285062550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_96
+      rect:
+        serializedVersion: 2
+        x: 1789
+        y: 564
+        width: 59
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8cf8c2313fa744a98e01cfd47e899b
+      internalID: 429285623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_97
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 564
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95565a03e85e4fb44b7427bd7b45c7e6
+      internalID: -1801486986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_98
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 567
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 943518151f2f80b4486b0ed3ebe3fcf4
+      internalID: 829478975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_99
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 564
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e0097aa02d2e1d49836507d26bcf758
+      internalID: -345665517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_100
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 426
+        width: 46
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3d3a5da1a15cf4992284056a4121d3
+      internalID: -2119162453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_101
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 445
+        width: 47
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98cc88fa0856b5c41b536ee69a0278c9
+      internalID: -1572293645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_102
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 463
+        width: 17
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be87e13b3ed50b4ead3103c7901e830
+      internalID: 2137809290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_103
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 448
+        width: 122
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0162473688dab71469da999d38bd0aca
+      internalID: -919605815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_104
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 426
+        width: 90
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa40afed6ae9af8448bb5449c6661d38
+      internalID: -1689831460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_105
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 446
+        width: 92
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee696c5b6c04b64194fd7235562204c
+      internalID: -374266714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_106
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 446
+        width: 44
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 981391fb0e0ad6247979038cfa1de617
+      internalID: 1065618556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_107
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 425
+        width: 31
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f080fc7ff37c6142a0cc9db6e35a99c
+      internalID: 114100935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_108
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 444
+        width: 21
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5409ed3ac85cb624b9fc55ce1b409ea0
+      internalID: 275014227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_109
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 446
+        width: 71
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aebaf002e5b93dc4b9ba26f103e3d2a5
+      internalID: 588903709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_110
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 440
+        width: 80
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca12be16340f9444830daac3bd8b8fd
+      internalID: -1652439389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_111
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 477
+        width: 12
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1af6f60293d1dd74381e99522773f4cf
+      internalID: -13597901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_112
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 444
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7907b43dc616aa418841e2eec660894
+      internalID: 1822900013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_113
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 444
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 687e56b5943ae504e8cddad32d490a4a
+      internalID: -1986444437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_114
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 426
+        width: 25
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ae6a473356d94449361e564ec9e505
+      internalID: -169484530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_115
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 426
+        width: 23
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aeb094dd743a6c47be9ef80c3cfcea1
+      internalID: -534758697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_116
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 444
+        width: 17
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 552f256b03c01754e96386e05981eb9e
+      internalID: 1154888490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_117
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 444
+        width: 20
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a375a39ca9f0d4bb555d1dc92c7135
+      internalID: 1943757486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_118
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 444
+        width: 101
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c77357403dcc1144cbf5a99b3ef7c725
+      internalID: -563174385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_119
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 420
+        width: 98
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d1db745df28b2409d96fcc9ea9cc0d
+      internalID: 1743007422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_120
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 448
+        width: 56
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59aed8d1eba81914b8632d7bfd826a1c
+      internalID: 1864337904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_121
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 456
+        width: 56
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c07fcf3a54245c84ead84b9e5f5d9b46
+      internalID: 2004268043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_122
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 456
+        width: 61
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b540d9379f6de4e93b76cc9ca3f69b
+      internalID: 746865287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_123
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 448
+        width: 58
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c231193a8c0d6d342ae7db912c9a1385
+      internalID: -594180482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_124
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 444
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6800556e4e2174fbf46bcd14cb22e7
+      internalID: 811838552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_125
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 334
+        width: 143
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3f0c247212c0f4d947abc3fd7d03f6
+      internalID: -701529239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_126
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 346
+        width: 84
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a5e47404d70b74da163b39fcef1796
+      internalID: 2114628975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_127
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 346
+        width: 88
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11afbeb047b5530469a553e8f729ed69
+      internalID: 1479318475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_128
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 346
+        width: 82
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ca3b74f62818d439b385668d8492aa
+      internalID: 1150545403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_129
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 346
+        width: 88
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9249c510669e3884495522789efcafeb
+      internalID: -895740144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_130
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 326
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e0143e92f5b1f4b92296eef5cc34bb
+      internalID: -424975648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_131
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 342
+        width: 51
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7b4ffe299d80834fbaa228dc0795bfa
+      internalID: -1950643743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_132
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 319
+        width: 108
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 966b20c6bd288be4fb3bb79eff05c5e8
+      internalID: 1536737037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_133
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 318
+        width: 71
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c66c17d4bb3576498e68849f8bcc586
+      internalID: 1096852397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_134
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 318
+        width: 72
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3dcfb9574045f48898cb44e9babbb6
+      internalID: -1202591057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_135
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 318
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47412368743cdee4d95e63df596adea0
+      internalID: 902133136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_136
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 318
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0daf05c7d109ced409995d471f310086
+      internalID: -87975749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_137
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 346
+        width: 78
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c616332064b0f541a05d36b34feb452
+      internalID: 606560465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_138
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 367
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a79d93c7f05af4429a27b1331e9d695
+      internalID: -1523242974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_139
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 366
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa32bd4ee920bb45b54024462f0d1a9
+      internalID: 1837595432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_140
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 318
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f89fc8e1357ee499f2f39e483fbf93
+      internalID: 1923385537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_141
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 322
+        width: 93
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a3aee32b4c2ce4095c39bf478d3646
+      internalID: -906537961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_142
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 312
+        width: 16
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6286c1ebbfe5ae14794da840c541e42c
+      internalID: -60831945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_143
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 312
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19aa0a0d08819ba40998c44e16a963bd
+      internalID: -2003222636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_144
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 342
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5226e475c37409242b135cf0920575ae
+      internalID: -1144443304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_145
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 312
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6319ee127faea4f4eb17c0ca25d4a4a9
+      internalID: -381565180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_146
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 312
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 514de80afa69b7149a7ddb4eeed5105c
+      internalID: 18277484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_147
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 324
+        width: 71
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a41d4753f46eda4aa5f7e2759183254
+      internalID: -1050694746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_148
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 330
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762b86b238160df41856729e066150cc
+      internalID: 609637124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_149
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 318
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73703d5e1934c1d42b2029c5cedd641d
+      internalID: 187238237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_150
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 322
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f4566a37cef6146ad483d447858941
+      internalID: 1489734933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_151
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 205
+        width: 78
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a740a332be2fc94fa1c572131446698
+      internalID: -1089041413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_152
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 205
+        width: 76
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f67cb98e5276ec458136350f34aa41c
+      internalID: -525081750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_153
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 204
+        width: 77
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142e4680d38b3874b82e8b40cd0a762b
+      internalID: -1632544184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_154
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 174
+        width: 78
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ee34b27a525c442b82160b81a06dde
+      internalID: -1817948694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_155
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 204
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e3ac85fe0940c8438342cf4722270b8
+      internalID: -346268704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_156
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 205
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553ed73f120028a4bb79a2aadbfcb134
+      internalID: -2093872334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Template icons_157
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 205
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd2d3db8ef12194ca349c6191879a9f
+      internalID: -570354389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7c9914d3a62e9d44189eb0331e2896e2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceOnImport
+        value: True
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":true,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      UI Template icons_0: -717954876
+      UI Template icons_1: 1795001461
+      UI Template icons_10: 123411149
+      UI Template icons_100: -2119162453
+      UI Template icons_101: -1572293645
+      UI Template icons_102: 2137809290
+      UI Template icons_103: -919605815
+      UI Template icons_104: -1689831460
+      UI Template icons_105: -374266714
+      UI Template icons_106: 1065618556
+      UI Template icons_107: 114100935
+      UI Template icons_108: 275014227
+      UI Template icons_109: 588903709
+      UI Template icons_11: 1027988175
+      UI Template icons_110: -1652439389
+      UI Template icons_111: -13597901
+      UI Template icons_112: 1822900013
+      UI Template icons_113: -1986444437
+      UI Template icons_114: -169484530
+      UI Template icons_115: -534758697
+      UI Template icons_116: 1154888490
+      UI Template icons_117: 1943757486
+      UI Template icons_118: -563174385
+      UI Template icons_119: 1743007422
+      UI Template icons_12: 279487959
+      UI Template icons_120: 1864337904
+      UI Template icons_121: 2004268043
+      UI Template icons_122: 746865287
+      UI Template icons_123: -594180482
+      UI Template icons_124: 811838552
+      UI Template icons_125: -701529239
+      UI Template icons_126: 2114628975
+      UI Template icons_127: 1479318475
+      UI Template icons_128: 1150545403
+      UI Template icons_129: -895740144
+      UI Template icons_13: -397000432
+      UI Template icons_130: -424975648
+      UI Template icons_131: -1950643743
+      UI Template icons_132: 1536737037
+      UI Template icons_133: 1096852397
+      UI Template icons_134: -1202591057
+      UI Template icons_135: 902133136
+      UI Template icons_136: -87975749
+      UI Template icons_137: 606560465
+      UI Template icons_138: -1523242974
+      UI Template icons_139: 1837595432
+      UI Template icons_14: 1555608806
+      UI Template icons_140: 1923385537
+      UI Template icons_141: -906537961
+      UI Template icons_142: -60831945
+      UI Template icons_143: -2003222636
+      UI Template icons_144: -1144443304
+      UI Template icons_145: -381565180
+      UI Template icons_146: 18277484
+      UI Template icons_147: -1050694746
+      UI Template icons_148: 609637124
+      UI Template icons_149: 187238237
+      UI Template icons_15: 2126343780
+      UI Template icons_150: 1489734933
+      UI Template icons_151: -1089041413
+      UI Template icons_152: -525081750
+      UI Template icons_153: -1632544184
+      UI Template icons_154: -1817948694
+      UI Template icons_155: -346268704
+      UI Template icons_156: -2093872334
+      UI Template icons_157: -570354389
+      UI Template icons_16: -137168818
+      UI Template icons_17: 7129529
+      UI Template icons_18: -694224568
+      UI Template icons_19: 1178740569
+      UI Template icons_2: 1087681946
+      UI Template icons_20: 96479964
+      UI Template icons_21: 307934187
+      UI Template icons_22: -982420517
+      UI Template icons_23: -1659907295
+      UI Template icons_24: -1562763210
+      UI Template icons_25: -2076497229
+      UI Template icons_26: -1407055176
+      UI Template icons_27: 1138763098
+      UI Template icons_28: -2122270958
+      UI Template icons_29: 1546695286
+      UI Template icons_3: -795555619
+      UI Template icons_30: -52803349
+      UI Template icons_31: 65222151
+      UI Template icons_32: 1570786842
+      UI Template icons_33: 1123953548
+      UI Template icons_34: -1790175147
+      UI Template icons_35: 1775308776
+      UI Template icons_36: 1270972405
+      UI Template icons_37: -2087396624
+      UI Template icons_38: -1805291635
+      UI Template icons_39: -719086874
+      UI Template icons_4: -6385034
+      UI Template icons_40: 741712445
+      UI Template icons_41: -43861995
+      UI Template icons_42: -1162605314
+      UI Template icons_43: 14609554
+      UI Template icons_44: -362938283
+      UI Template icons_45: -1464110785
+      UI Template icons_46: 1820738491
+      UI Template icons_47: 782655526
+      UI Template icons_48: -2051081892
+      UI Template icons_49: -402552609
+      UI Template icons_5: -350955293
+      UI Template icons_50: 1143848769
+      UI Template icons_51: 1306032219
+      UI Template icons_52: -222377859
+      UI Template icons_53: -391730730
+      UI Template icons_54: -584204410
+      UI Template icons_55: 677695331
+      UI Template icons_56: -84547296
+      UI Template icons_57: -413803256
+      UI Template icons_58: -1045796810
+      UI Template icons_59: -913787750
+      UI Template icons_6: 2139262136
+      UI Template icons_60: -1079015168
+      UI Template icons_61: 916936894
+      UI Template icons_62: 124983626
+      UI Template icons_63: -865503369
+      UI Template icons_64: -1066795334
+      UI Template icons_65: -687612785
+      UI Template icons_66: -413452105
+      UI Template icons_67: 1509130453
+      UI Template icons_68: -433368501
+      UI Template icons_69: 2001801334
+      UI Template icons_7: 1324493211
+      UI Template icons_70: -71570802
+      UI Template icons_71: 551182914
+      UI Template icons_72: 281478752
+      UI Template icons_73: 119453626
+      UI Template icons_74: 915410826
+      UI Template icons_75: 1563282145
+      UI Template icons_76: 325142544
+      UI Template icons_77: 1798395414
+      UI Template icons_78: 1459500923
+      UI Template icons_79: 1878023292
+      UI Template icons_8: 2070770457
+      UI Template icons_80: 1131876617
+      UI Template icons_81: 1670929788
+      UI Template icons_82: 1989766386
+      UI Template icons_83: 6647533
+      UI Template icons_84: -1274410351
+      UI Template icons_85: -1671480695
+      UI Template icons_86: 619983239
+      UI Template icons_87: 743883458
+      UI Template icons_88: 818381654
+      UI Template icons_89: -1688579643
+      UI Template icons_9: -1765002356
+      UI Template icons_90: -1741757886
+      UI Template icons_91: -1693602649
+      UI Template icons_92: -124672159
+      UI Template icons_93: -760206449
+      UI Template icons_94: 684171468
+      UI Template icons_95: -1285062550
+      UI Template icons_96: 429285623
+      UI Template icons_97: -1801486986
+      UI Template icons_98: 829478975
+      UI Template icons_99: -345665517
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
