@@ -7,9 +7,11 @@ public class NetworkPickAndThrow : NetworkBehaviour
 {
     [Header("References")]
     public Transform holdPoint;
+    public GameObject ArrowAbove;
     public LayerMask pickableLayer;
     public Transform startPointThrow;
     public GameObject SlipperPrefab;
+    public bool isOnSafeZone = true;
 
     [Header("Settings")]
     public float pickUpRange = 3f;

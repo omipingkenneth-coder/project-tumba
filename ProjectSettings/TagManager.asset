@@ -13,6 +13,7 @@ TagManager:
   - Can
   - EnemyPlayer
   - DefaultView
+  - EnemyStatusBar
   layers:
   - Default
   - TransparentFX

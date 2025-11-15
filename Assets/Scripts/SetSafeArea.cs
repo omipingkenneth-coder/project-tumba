@@ -2,17 +2,30 @@ using UnityEngine;
 
 public class SetSafeArea : MonoBehaviour
 {
+    [Header("Multiplayer Settings")]
+    public bool isMultiplayer = false;
+
     void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            // Get the PickandThrow script instead of CharacterControllerMovement
-            PickandThrow PickandThrow = other.GetComponent<PickandThrow>();
-            if (PickandThrow != null)
+            if (isMultiplayer)
             {
-                // Set the player as being in the safe zone
-                PickandThrow.isOnSafeZone = true;
-                Debug.Log("Player entered safe zone.");
+                var pick = other.GetComponent<NetworkPickAndThrow>();
+                if (pick != null)
+                {
+                    pick.isOnSafeZone = true;
+                    Debug.Log("Multiplayer player entered safe zone.");
+                }
+            }
+            else
+            {
+                var pick = other.GetComponent<PickandThrow>();
+                if (pick != null)
+                {
+                    pick.isOnSafeZone = true;
+                    Debug.Log("Singleplayer player entered safe zone.");
+                }
             }
         }
     }
@@ -21,13 +34,23 @@ public class SetSafeArea : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            // Get the PickandThrow script instead of CharacterControllerMovement
-            PickandThrow PickandThrow = other.GetComponent<PickandThrow>();
-            if (PickandThrow != null)
+            if (isMultiplayer)
             {
-                // Set the player as leaving the safe zone
-                PickandThrow.isOnSafeZone = false;
-                Debug.Log("Player exited safe zone.");
+                var pick = other.GetComponent<NetworkPickAndThrow>();
+                if (pick != null)
+                {
+                    pick.isOnSafeZone = false;
+                    Debug.Log("Multiplayer player exited safe zone.");
+                }
+            }
+            else
+            {
+                var pick = other.GetComponent<PickandThrow>();
+                if (pick != null)
+                {
+                    pick.isOnSafeZone = false;
+                    Debug.Log("Singleplayer player exited safe zone.");
+                }
             }
         }
     }
