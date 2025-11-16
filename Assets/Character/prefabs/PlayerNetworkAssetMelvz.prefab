@@ -1,5 +1,123 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &300912538054365091
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7443149995095005276}
+  - component: {fileID: 5126526443895543795}
+  - component: {fileID: 1762739854983937445}
+  - component: {fileID: 7553154488263071451}
+  - component: {fileID: 3665874557793013271}
+  m_Layer: 0
+  m_Name: DangerArrow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &7443149995095005276
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 300912538054365091}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.650244, z: -0, w: 0.7597255}
+  m_LocalPosition: {x: 0, y: 2.790455, z: 0}
+  m_LocalScale: {x: 0.14999998, y: 0.15, z: 0.14999998}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 4090896745676392035}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &5126526443895543795
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 300912538054365091}
+  m_Mesh: {fileID: -2432090755550338912, guid: 746103653a4d6604389e8865869cd606, type: 3}
+--- !u!23 &1762739854983937445
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 300912538054365091}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 4a61659022703914e95a30b0af7ea697, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &7553154488263071451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 300912538054365091}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c93e9dda852d24e449e0d5b73d17db79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MoveUpDownPingpong
+  distance: 0.2
+  speed: 0.2
+--- !u!114 &3665874557793013271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 300912538054365091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2206fa7532cbf724cae00a585c4f00e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Billboard
+  heightOffset: 2
 --- !u!1 &322541035094273926
 GameObject:
   m_ObjectHideFlags: 0
@@ -656,6 +774,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2206fa7532cbf724cae00a585c4f00e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Billboard
+  heightOffset: 4
 --- !u!114 &1058793888416351060
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -752,15 +871,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 3b597f7bd61e1f0489f1d8595242720b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 69.95486
+      value: 69.25434
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3b597f7bd61e1f0489f1d8595242720b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.10009551
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3b597f7bd61e1f0489f1d8595242720b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 49.700287
+      value: 44.83082
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3b597f7bd61e1f0489f1d8595242720b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -843,12 +962,15 @@ PrefabInstance:
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3b597f7bd61e1f0489f1d8595242720b, type: 3}
       insertIndex: 0
-      addedObject: {fileID: 90118565296284692}
+      addedObject: {fileID: 7443149995095005276}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3b597f7bd61e1f0489f1d8595242720b, type: 3}
       insertIndex: 1
-      addedObject: {fileID: 9158341545417385422}
+      addedObject: {fileID: 90118565296284692}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3b597f7bd61e1f0489f1d8595242720b, type: 3}
       insertIndex: 2
+      addedObject: {fileID: 9158341545417385422}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3b597f7bd61e1f0489f1d8595242720b, type: 3}
+      insertIndex: 3
       addedObject: {fileID: 5374782877686049861}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3b597f7bd61e1f0489f1d8595242720b, type: 3}
       insertIndex: -1
@@ -983,11 +1105,14 @@ MonoBehaviour:
   syncMode: 0
   syncInterval: 0
   holdPoint: {fileID: 7726245735049874304}
+  ArrowAbove: {fileID: 300912538054365091}
   pickableLayer:
     serializedVersion: 2
     m_Bits: 0
   startPointThrow: {fileID: 90118565296284692}
   SlipperPrefab: {fileID: 5458551396853693873, guid: ea610e26869ab1a4bb6f185f7f69a613, type: 3}
+  isOnSafeZone: 1
+  isPickCan: 0
   pickUpRange: 3
   throwForce: 10
   pickAnimDuration: 1

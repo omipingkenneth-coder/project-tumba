@@ -13,6 +13,8 @@ public class NetworkPickAndThrow : NetworkBehaviour
     public GameObject SlipperPrefab;
     public bool isOnSafeZone = true;
 
+    public bool isPickCan = false;
+
     [Header("Settings")]
     public float pickUpRange = 3f;
     public float throwForce = 10f;

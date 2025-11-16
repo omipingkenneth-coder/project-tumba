@@ -14,6 +14,7 @@ public class NetworkPlayerProperties : NetworkBehaviour
     [SyncVar(hook = nameof(OnStaminaChanged))] public int PlayerStamina = 100;
     [SyncVar] public int maxStamina = 100;
     [SyncVar] public float AddPlayerSpeed = 0;
+    public bool isEnemyPlayer = false;
 
     [Header("UI References (Local Only)")]
     public GameObject UIPanelPlayer;
@@ -73,6 +74,8 @@ public class NetworkPlayerProperties : NetworkBehaviour
             var cameraFollow = mainCamera.GetComponent<TopDownCameraFollow>();
             if (cameraFollow != null)
                 cameraFollow.target = transform;
+
+            if (isEnemyPlayer) cameraFollow.enableAutoRotate = true;
 
             var fpsUI = mainCamera.GetComponent<TurnFPSOnOff>();
             if (fpsUI != null)
@@ -215,18 +218,21 @@ public class NetworkPlayerProperties : NetworkBehaviour
     // -------------------- COMMANDS --------------------
     [Command] public void CmdSetPlayerName(string newName) => PlayerName = newName;
 
-    [Command] public void CmdAddScore(int value)
+    [Command]
+    public void CmdAddScore(int value)
     {
         PlayerScore += value;
         RpcShowScorePanel();
     }
 
-    [Command] public void CmdUseStamina(int value)
+    [Command]
+    public void CmdUseStamina(int value)
     {
         PlayerStamina = Mathf.Max(PlayerStamina - value, 0);
     }
 
-    [Command] public void CmdRestoreStamina(int value)
+    [Command]
+    public void CmdRestoreStamina(int value)
     {
         PlayerStamina = Mathf.Min(PlayerStamina + value, maxStamina);
     }

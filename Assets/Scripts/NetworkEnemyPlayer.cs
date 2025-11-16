@@ -11,17 +11,17 @@ public class NetworkEnemyPlayer : NetworkBehaviour
     public Transform holdPoint;         // child under hand
     public GameObject heldCan = null;
     public Transform[] targets;         // Player transforms
-    public Transform returnToPosition;  // Return position if idle
+                                        // public Transform returnToPosition;  // Return position if idle
     public float followSpeed = 3.0f;
     public float stoppingDistance = 2.0f;
     public float rotationSpeed = 5.0f;
     public float crossFadeDuration = 0.2f;
 
     private CharacterController characterController;
-    private Animation animationComponent;
+    //private Animation animationComponent;
 
-    private PickandThrow playerPickandThrow;
-    private bool isTargetInSafeZone = false;
+    // private PickandThrow playerPickandThrow;
+    // private bool isTargetInSafeZone = false;
     private bool isPickingUp = false;
     private bool isHoldingCan = false;
     private bool hasPlacedCan = false;
@@ -50,8 +50,8 @@ public class NetworkEnemyPlayer : NetworkBehaviour
     {
         base.OnStartServer();
 
-        characterController = GetComponent<CharacterController>();
-        animationComponent = GetComponent<Animation>();
+        // characterController = GetComponent<CharacterController>();
+        // animationComponent = GetComponent<Animation>();
 
         StatusBarPanel = GameObject.FindGameObjectWithTag("EnemyStatusBar");
 
@@ -65,10 +65,8 @@ public class NetworkEnemyPlayer : NetworkBehaviour
         }
         StatusBarText.text = "Welcome! You Are Enemy Player";
 
-        if (animationComponent == null)
-            Debug.LogError("No Animation component found on Enemy Player!");
 
-        DebugAnimationClips();
+
     }
     public void RefreshPlayerTargets()
     {
@@ -99,7 +97,7 @@ public class NetworkEnemyPlayer : NetworkBehaviour
         if (isHoldingCan && !hasPlacedCan)
         {
             AllowAndShowOntriggerMessages(false, "You must place the can to exact position.");
-            // MoveToCanSpawn();
+            MoveToCanSpawn();
             return;
         }
 
@@ -182,54 +180,48 @@ public class NetworkEnemyPlayer : NetworkBehaviour
     }
 
 
-    // ---------------- FOLLOW PLAYER ----------------
 
-    // ---------------- CAN PICKUP ----------------
-    void FollowCanPickup()
-    {
-        if (isHoldingCan) return;
-
-        Vector3 dir = (canTrigger.Can.position - transform.position).normalized;
-        Quaternion lookRot = Quaternion.LookRotation(dir);
-        transform.rotation = Quaternion.Slerp(transform.rotation, lookRot, rotationSpeed * Time.deltaTime);
-        characterController.Move(dir * followSpeed * Time.deltaTime);
-
-        if (Vector3.Distance(transform.position, canTrigger.Can.position) < stoppingDistance)
-        {
-            TryPickupCan(canTrigger.Can.GetComponent<Collider>());
-        }
-
-        RpcCrossFadeAnimation("RunningAnimation");
-    }
-
-    [Server]
     public void TryPickupCan(Collider canCollider)
     {
         if (heldCan != null) return;
+        CmdPickupCan(canCollider.gameObject);
+    }
 
+    [Command]
+    private void CmdPickupCan(GameObject canCollider)
+    {
+
+        if (canCollider.TryGetComponent<Rigidbody>(out Rigidbody rb))
+        {
+            rb.isKinematic = true;
+            rb.detectCollisions = false;
+        }
         heldCan = canCollider.gameObject;
         heldCan.transform.SetParent(holdPoint);
         heldCan.transform.localPosition = Vector3.zero;
         heldCan.transform.localRotation = Quaternion.identity;
-
-        var rb = heldCan.GetComponent<Rigidbody>();
-        if (rb != null) Destroy(rb);
-
         isHoldingCan = true;
         hasPlacedCan = false;
 
-        RpcCrossFadeAnimation("Pickup");
+        // Notify clients to update parent as well
+        RpcPickupCan(heldCan);
+    }
+
+    [ClientRpc]
+    private void RpcPickupCan(GameObject canCollider)
+    {
+        if (heldCan == null) return;
+        heldCan = canCollider.gameObject;
+        heldCan.transform.SetParent(holdPoint);
+        heldCan.transform.localPosition = Vector3.zero;
+        heldCan.transform.localRotation = Quaternion.identity;
+        isHoldingCan = true;
+        hasPlacedCan = false;
     }
 
     // ---------------- PLACE CAN ----------------
     void MoveToCanSpawn()
     {
-        Vector3 dir = (canTrigger.CanSpawnPoint.position - transform.position).normalized;
-        Quaternion lookRot = Quaternion.LookRotation(dir);
-        transform.rotation = Quaternion.Slerp(transform.rotation, lookRot, rotationSpeed * Time.deltaTime);
-        characterController.Move(dir * followSpeed * Time.deltaTime);
-
-        RpcCrossFadeAnimation("RunningAnimation");
 
         if (Vector3.Distance(transform.position, canTrigger.CanSpawnPoint.position) <= stoppingDistance)
         {
@@ -250,45 +242,7 @@ public class NetworkEnemyPlayer : NetworkBehaviour
 
         isHoldingCan = false;
         hasPlacedCan = true;
-
-        RpcCrossFadeAnimation("Pickup");
     }
 
-    // ---------------- RETURN ----------------
-    void ReturnToPosition()
-    {
-        if (returnToPosition == null) return;
 
-        Vector3 dir = (returnToPosition.position - transform.position).normalized;
-        float dist = Vector3.Distance(transform.position, returnToPosition.position);
-
-        if (dist > stoppingDistance)
-        {
-            characterController.Move(dir * followSpeed * Time.deltaTime);
-            Quaternion lookRot = Quaternion.LookRotation(dir);
-            transform.rotation = Quaternion.Slerp(transform.rotation, lookRot, rotationSpeed * Time.deltaTime);
-            RpcCrossFadeAnimation("RunningAnimation");
-        }
-        else
-        {
-            RpcCrossFadeAnimation("idle");
-        }
-    }
-
-    // ---------------- ANIMATION ----------------
-    [ClientRpc]
-    void RpcCrossFadeAnimation(string anim)
-    {
-        if (animationComponent == null) return;
-        animationComponent.CrossFade(anim, crossFadeDuration);
-    }
-
-    void DebugAnimationClips()
-    {
-        if (animationComponent == null) return;
-        foreach (AnimationState state in animationComponent)
-        {
-            Debug.Log("AI Animation Clip: " + state.name);
-        }
-    }
 }

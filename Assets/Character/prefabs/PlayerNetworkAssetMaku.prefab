@@ -78,6 +78,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1730592797966698130}
   - component: {fileID: 8743053246620920447}
+  - component: {fileID: 7012662266535733525}
   m_Layer: 0
   m_Name: TriggerGameOver
   m_TagString: Untagged
@@ -121,6 +122,24 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &7012662266535733525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3443980128244048453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49fb48162f3dead41b042caec91b6a34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NetworkGameOverManager
+  syncDirection: 0
+  syncMode: 0
+  syncInterval: 0
+  gameOverPanelTag: GameOverPanel
+  delay: 5
+  globalGameOver: 0
 --- !u!1 &3454263997813452283
 GameObject:
   m_ObjectHideFlags: 0
@@ -242,6 +261,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2206fa7532cbf724cae00a585c4f00e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Billboard
+  heightOffset: 2
 --- !u!114 &9039584256330489734
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -373,7 +393,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 73f31432cf99f6c4c9869ef7c690839d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 71.3307
+      value: 69.9462
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 73f31432cf99f6c4c9869ef7c690839d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -381,7 +401,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 73f31432cf99f6c4c9869ef7c690839d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 52.648273
+      value: 46.679276
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 73f31432cf99f6c4c9869ef7c690839d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -906,7 +926,7 @@ PrefabInstance:
     - target: {fileID: 2223639932434330405, guid: 73f31432cf99f6c4c9869ef7c690839d, type: 3}
       propertyPath: m_Animation
       value: 
-      objectReference: {fileID: -1610863427237328480, guid: 73f31432cf99f6c4c9869ef7c690839d, type: 3}
+      objectReference: {fileID: 2520011833402300747, guid: 73f31432cf99f6c4c9869ef7c690839d, type: 3}
     - target: {fileID: 2223639932434330405, guid: 73f31432cf99f6c4c9869ef7c690839d, type: 3}
       propertyPath: m_UpdateMode
       value: 1
@@ -1231,13 +1251,19 @@ PrefabInstance:
       addedObject: {fileID: 7163102931873379451}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 73f31432cf99f6c4c9869ef7c690839d, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 5711829108843728280}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 73f31432cf99f6c4c9869ef7c690839d, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 8805728994686051340}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 73f31432cf99f6c4c9869ef7c690839d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4666857134456124763}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 73f31432cf99f6c4c9869ef7c690839d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 645377029716738598}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 73f31432cf99f6c4c9869ef7c690839d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -8340985758873877701}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 73f31432cf99f6c4c9869ef7c690839d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8868215209812673220}
   m_SourcePrefab: {fileID: 100100000, guid: 73f31432cf99f6c4c9869ef7c690839d, type: 3}
 --- !u!4 &6314678655400613207 stripped
 Transform:
@@ -1291,30 +1317,6 @@ MonoBehaviour:
   serverOnly: 0
   visibility: 0
   hasSpawned: 0
---- !u!114 &5711829108843728280
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6950622853743761794}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66e69be0e25c70948af547191b151cc9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::NetworkAIEnemy
-  syncDirection: 0
-  syncMode: 0
-  syncInterval: 0
-  canTrigger: {fileID: 0}
-  holdPoint: {fileID: 8655597117822709086}
-  heldCan: {fileID: 0}
-  targets: []
-  returnToPosition: {fileID: 0}
-  followSpeed: 3
-  stoppingDistance: 2
-  rotationSpeed: 5
-  crossFadeDuration: 0.2
 --- !u!114 &8805728994686051340
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1327,7 +1329,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5decd9740ee0dce48b90e3037b12cfb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NetworkCharacterControllerMovement
-  syncDirection: 0
+  syncDirection: 1
   syncMode: 0
   syncInterval: 0
   walkSpeed: 2
@@ -1353,7 +1355,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98c667afc331bdf43ad8bce50f2c1531, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NetworkPlayerProperties
-  syncDirection: 0
+  syncDirection: 1
   syncMode: 0
   syncInterval: 0
   PlayerID: 001
@@ -1364,6 +1366,7 @@ MonoBehaviour:
   PlayerStamina: 100
   maxStamina: 100
   AddPlayerSpeed: 0
+  isEnemyPlayer: 0
   UIPanelPlayer: {fileID: 0}
   txtPanelScore: {fileID: 0}
   txtScore: {fileID: 0}
@@ -1374,6 +1377,97 @@ MonoBehaviour:
   Coins: 0
   worldText: {fileID: 8635316536081120770}
   worldTextOffset: {x: 0, y: 2, z: 0}
+--- !u!114 &645377029716738598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6950622853743761794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 544b56558ee44e141833d88a70165b7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NetworkEnemyPlayer
+  syncDirection: 0
+  syncMode: 0
+  syncInterval: 0
+  canTrigger: {fileID: 0}
+  holdPoint: {fileID: 8655597117822709086}
+  heldCan: {fileID: 0}
+  targets: []
+  followSpeed: 3
+  stoppingDistance: 2
+  rotationSpeed: 5
+  crossFadeDuration: 0.2
+  OnTriggerActivator: {fileID: 3443980128244048453}
+  StatusBarPanel: {fileID: 0}
+  StatusBarPanelImage: {fileID: 0}
+  StatusBarText: {fileID: 0}
+--- !u!114 &-8340985758873877701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6950622853743761794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a553cb17010b2403e8523b558bffbc14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Mirror.Components::Mirror.NetworkTransformUnreliable
+  syncDirection: 1
+  syncMode: 0
+  syncInterval: 0
+  target: {fileID: 7727686596898292536}
+  syncPosition: 1
+  syncRotation: 1
+  syncScale: 0
+  onlySyncOnChange: 1
+  compressRotation: 1
+  interpolatePosition: 1
+  interpolateRotation: 1
+  interpolateScale: 1
+  coordinateSpace: 0
+  timelineOffset: 0
+  showGizmos: 0
+  showOverlay: 0
+  overlayColor: {r: 0, g: 0, b: 0, a: 0.5}
+  bufferResetMultiplier: 3
+  positionSensitivity: 0.01
+  rotationSensitivity: 0.01
+  scaleSensitivity: 0.01
+--- !u!114 &8868215209812673220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6950622853743761794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da036c1aa924af848aaf210e1a949972, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NetworkPickAndThrow
+  syncDirection: 0
+  syncMode: 0
+  syncInterval: 0
+  holdPoint: {fileID: 8655597117822709086}
+  ArrowAbove: {fileID: 0}
+  pickableLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  startPointThrow: {fileID: 0}
+  SlipperPrefab: {fileID: 0}
+  isOnSafeZone: 1
+  isPickCan: 0
+  pickUpRange: 3
+  throwForce: 10
+  pickAnimDuration: 1
+  throwAnimDuration: 0.6
+  MoveToGuide: {fileID: 0}
+  heldSlipper: {fileID: 0}
+  pickupCooldown: 0.5
 --- !u!4 &7727686596898292536 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 73f31432cf99f6c4c9869ef7c690839d, type: 3}

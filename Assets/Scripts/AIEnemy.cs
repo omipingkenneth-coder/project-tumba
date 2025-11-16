@@ -182,7 +182,7 @@ public class AIEnemy : MonoBehaviour
         Quaternion lookRotation = Quaternion.LookRotation(direction);
         transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * rotationSpeed);
 
-        CrossFadeAnimation("idle");
+        CrossFadeAnimation("Idle");
     }
 
     // ------------------ CAN PICKUP LOGIC ------------------
@@ -284,7 +284,7 @@ public class AIEnemy : MonoBehaviour
             }
             else
             {
-                CrossFadeAnimation("idle");
+                CrossFadeAnimation("Idle");
             }
         }
     }

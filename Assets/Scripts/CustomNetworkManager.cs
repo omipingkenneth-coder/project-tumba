@@ -3,6 +3,8 @@ using UnityEngine.UI;
 using Mirror;
 using System.Linq;
 using System.Collections.Generic;
+using System.Net;
+using System.Net.Sockets;
 
 public class CustomNetworkManager : NetworkManager
 {
@@ -15,7 +17,7 @@ public class CustomNetworkManager : NetworkManager
     [Header("Player Prefabs")]
     public GameObject playerPrefabA; // normal player
     public GameObject playerPrefabB; // special player
-
+    public bool isVsAI = false;
     [Header("Spawn Points")]
     public Transform spawnPointA;
     public Transform spawnPointB;
@@ -24,11 +26,34 @@ public class CustomNetworkManager : NetworkManager
     private int playerCount = 0;
     public GameObject UIPanel;
 
+
+
     public override void Awake()
     {
         base.Awake();
         if (hostButton) hostButton.onClick.AddListener(StartHostConnection);
         if (clientButton) clientButton.onClick.AddListener(StartClientConnection);
+    }
+    void Start()
+    {
+        string localIP = GetLocalIPAddress();
+        Debug.Log("Local IP: " + localIP);
+        addressInput.text = localIP;
+    }
+    string GetLocalIPAddress()
+    {
+        try
+        {
+            var host = Dns.GetHostEntry(Dns.GetHostName());
+            foreach (var ip in host.AddressList)
+            {
+                if (ip.AddressFamily == AddressFamily.InterNetwork) // IPv4
+                    return ip.ToString();
+            }
+        }
+        catch { }
+
+        return "127.0.0.1"; // fallback
     }
 
     void StartHostConnection()
@@ -61,7 +86,7 @@ public class CustomNetworkManager : NetworkManager
         GameObject prefabToSpawn;
         Vector3 spawnPosition;
 
-        if (!specialPlayerAssigned)
+        if (!specialPlayerAssigned && !isVsAI)
         {
             prefabToSpawn = playerPrefabB;
             spawnPosition = spawnPointB.position;
